@@ -1,0 +1,115 @@
+h1 {
+	text-align: center;
+	color: lightcoral;
+	border: 10px outset dimgray;
+	background-color: dimgrey;
+}
+
+a {
+	Text-decoration: none
+}
+
+a:link {
+	color: rgba(119, 0, 255, 0.747);
+}
+
+a:visited {
+	color: rgb(255, 20, 20);
+}
+
+h4 {
+	text-align: center;
+	color: rgb(136, 255, 0);
+	border: 5px outset dimgray;
+	background-color: dimgrey;
+}
+
+body {
+	background-color: aliceblue;
+}
+
+img {
+	border: 5px Double black;
+}
+
+p {
+	font-family: comic sans ms;
+	font-weight: italic;
+}
+
+ol,
+ul {
+	font-family: comic sans ms;
+}
+
+hr {
+	color: fuchsia;
+}
+
+.menu {
+	display: flex;
+	justify-content: space-between;
+	background-color: black;
+	padding: 15px;
+	font-size: 20px;
+	font-family: sans-serif;
+	font-weight: 400;
+	color: white;
+}
+
+.grid {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.grif img {
+	border: 2px solid #000000;
+	border-radius: 50px;
+}
+
+body {
+	margin: 0px;
+	/* background-color: #f7f2f3;*/
+	/*   background-image:url("bg.jpg");*/
+	/*background-image:url("bg1.jpg");*/
+	/*  background-image:url("bg2.jpg");*/
+	/* background-image:url("bg3.jpg");*/
+	/*  background-image:url("bg4.jpg");*/
+	/* background-image:url("bg5.jpg");*/
+	background-image: url("bg6.jpg");
+}
+
+.oragami {
+	border-radius: 20px;
+	background-color: #ffffff;
+	padding: 30px;
+	margin: 25px;
+	width: 310px;
+	font-family: fantasy;
+}
+
+.bodyimg {
+	background-image: url("main2.jpg");
+	color: white;
+}
+
+.Load img {
+	transform: scale(2);
+	margin: 150px;
+}
+
+.oragami:hover {
+	transform: scale(1.1);
+
+}
+
+.oragami h2 {
+	font-family: fantasy;
+	transform: translate(0%, -990%);
+	opacity: 0;
+}
+
+.oragami:hover h2 {
+	opacity: 1;
+
+}
